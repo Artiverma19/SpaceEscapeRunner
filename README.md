@@ -52,3 +52,9 @@ Space Escape Runner is a simple mobile game built with Expo and React Native. In
 ## Note
 
 The high score is saved on your device, so it stays available even after you close the app.
+
+## Preview build
+
+You can open the latest Expo build here:
+
+- [Open build on Expo](https://expo.dev/accounts/arti.expogo/projects/SpaceEscapeRunner/builds/5e6735a7-d52d-4122-9976-38046af6b1c4)
