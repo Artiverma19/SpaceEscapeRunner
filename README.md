@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Space Escape Runner
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Space Escape Runner is a simple mobile game built with Expo and React Native. In this game, you control a spaceship and try to avoid falling asteroids. The goal is to stay alive as long as possible and beat your high score.
 
-## Get started
+## What this app does
 
-1. Install dependencies
+- Start a new game
+- Move the spaceship left or right
+- Avoid asteroids
+- Track your current score
+- Save and show your high score
+
+## Technologies used
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- AsyncStorage
+
+## How to run the project
+
+1. Open the project folder in your terminal.
+2. Install the required packages:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open it in Expo Go on your phone or use an Android/iOS emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to play
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Tap the Start Game button.
+- Use the left and right controls to move your ship.
+- Avoid the asteroid.
+- Try to get the highest score possible.
 
-## Get a fresh project
+## Main project folders
 
-When you're ready, run:
+- app/(tabs)/index.tsx - main game screen
+- app/_layout.tsx - app layout and navigation setup
+- app/(tabs)/explore.tsx - extra screen
+- assets/ - images and icons
 
-```bash
-npm run reset-project
-```
+## Note
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The high score is saved on your device, so it stays available even after you close the app.
